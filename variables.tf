@@ -7,13 +7,13 @@ variable "region"{
 variable "aws_access_key" {
   description = "Key name of the Key Pair to use for the instance; which can be managed using the `aws_key_pair` resource"
   type        = string
-  default     = "AKIAW3MEFAISQDWECE5Z"
+  default     = "AKIAW3MEFAISQDWECBAE5Z"
 }
 
 variable "aws_secret_key" {
   description = "Key name of the Key Pair to use for the instance; which can be managed using the `aws_key_pair` resource"
   type        = string
-  default     = "QL2KFGCd9kFPrezoZiR+mfummFxS8oiiViEthwsM"
+  default     = "QL2KFGCd9kFPrezoZiR+mfummFxS8oiiViECbathwsM"
 }
 variable "s3_config" {
   description = "details of the s3 configuration"
